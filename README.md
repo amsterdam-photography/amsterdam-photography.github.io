@@ -1,4 +1,4 @@
-# Barcelona
+# Photography Amterdam
 
 ```sh
 npm create astro@latest -- --template basics
