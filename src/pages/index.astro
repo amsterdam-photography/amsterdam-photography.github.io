@@ -1,0 +1,251 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+
+f
+<Layout title="Commercial Event Photographer Amsterdam">
+	<main>
+		<h1>Commercial Event <span class="text-gradient">Photographer Amsterdam</span></h1>
+		
+
+		<p class="instructions">
+			Hi, I'm Adam. I make your commercial event the star of Amsterdam. With a deep knowledge of photography, I turn special moments into lasting memories. My camera does more than just take pictures.
+		</p>
+
+
+		<h2>Commercial Event Photography</h2>
+
+		<p>As a commercial event photographer based in Amsterdam, I find myself immersed in the diverse and vibrant landscapes of the city, each area offering a unique canvas for my work. In the heart of the city, around <a href="https://en.wikipedia.org/wiki/Dam_Square">Dam Square</a> and the <a href="https://en.wikipedia.org/wiki/Royal_Palace_of_Amsterdam">Royal Palace</a>, I capture the essence of grand events against a backdrop of historical splendor. My camera brings out the contrast between the age-old architecture and the dynamic hustle of city life.</p>
+
+		<p>In the Jordaan, with its quaint streets and artistic atmosphere, I focus on the more intimate, creative events. Here, my lens tells stories of culture and community, highlighting the artistic soul of Amsterdam. It's a place where every shot reflects the lively spirit of the neighborhood.</p>
+
+		<p>The upscale <a href="https://en.wikipedia.org/wiki/Oud-Zuid">Oud-Zuid</a> area allows me to add a touch of elegance to my portfolio. In this chic part of the city, my photography takes on a sophisticated flair, perfect for high-end events and gatherings. Capturing the essence of luxury and style in Oud-Zuid is always a rewarding challenge.</p>
+
+		<p>Vondelpark offers a completely different experience. Here, I blend the joy of outdoor events with the serene beauty of nature. My photos from Vondelpark events show how people come together in the green heart of Amsterdam, celebrating under open skies.</p>
+
+		<p>In the Red Light District, I find the bold and lively spirit of Amsterdam. This area provides a unique backdrop for my more avant-garde projects. My camera captures the vibrant energy of the nightlife, creating images that are as daring and vivid as the district itself.</p>
+
+		<p>Each area of Amsterdam brings its own flavor and challenges, and as a photographer, I adapt my style to capture the unique essence of each event and location. This versatility not only enriches my portfolio but also allows me to offer a wide range of photographic services to my clients, showcasing the multifaceted charm of Amsterdam through my lens.</p>
+
+
+		
+
+		<img src="/commercial-event-photography-amsterdam.webp" alt="commercial event photography amsterdam">
+		
+
+		<ul role="list" class="link-card-grid">
+			<Card
+				title="Commercial Event Photographer in Amsterdam"
+				body="As a commercial event photographer in Amsterdam, my camera and I have been part of numerous vibrant events. Imagine capturing the dynamic energy of corporate conferences, where the buzz of networking sessions and the intensity of keynote speeches come alive through my lens. I also find myself amidst the glamour of fashion shows, where the latest trends hit the runway, and my camera works to not just capture, but also accentuate the creativity and style on display."
+			/>
+			<Card
+			
+				title="Trade Shows and Expos"
+				body="Then there are the bustling trade shows and expos, where businesses showcase their latest innovations. Here, my photography tells the story of progress and interaction, focusing on the products and the people behind them. Cultural festivals, another regular on my calendar, offer a rich tapestry of moments. The colors, the festivities, the expressions of joy and cultural pride, all find a place in my gallery."
+			/>
+
+		</ul>
+
+
+
+		<h2></h2>
+
+		<p>Let's not forget the lively music concerts, where each beat and note is frozen in time through my camera, reflecting the energy and spirit of the live performances.
+
+			In Amsterdam, each event comes with its own flavor, and my photography aims to not just document, but also tell the story of these diverse experiences. Whether it's the elegance of a fashion show, the buzz of a corporate event, the vibrancy of a festival, or the emotional depth of a wedding, my camera is there to capture the essence of these moments.</p>
+
+	
+		
+
+		<h2>Bookings? Questions? Just send me a message here:</h2>
+		<p></p>
+		<form action="https://formsubmit.co/lukasz.adms@gmail.com" method="POST">
+			<input type="text" name="name" placeholder="Name" required>
+			<input type="email" name="email" placeholder="Email" required>
+			<textarea name="message" placeholder="Your Message" required></textarea>
+			<button type="submit">Send</button>
+	   </form>
+
+
+	</main>
+
+	<footer>
+
+		<span>Copyright 2024 &copy; Commercial Event Photographer Amsterdam</span>
+
+
+
+	</footer>
+
+
+</Layout>
+
+
+
+<style>
+
+	body, html {
+		overflow-x: hidden;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	a {
+		color: #8e44eb;
+	}
+
+	footer a {
+		display: block;
+		color: white;
+		margin: 22px;
+	}
+
+	.main_pic {
+		text-align: center;
+	}
+
+	#localseophoto {
+		border-radius: 50%;
+		height: 200px;
+		width: 200px;
+		object-fit: cover;
+		object-position: top;
+	}
+
+
+
+	footer {
+		color: white;
+	}
+
+
+	main {
+		margin: auto;
+		padding: 1rem;
+		width: 800px;
+		max-width: calc(100% - 2rem);
+		color: white;
+		font-size: 20px;
+		line-height: 1.6;
+	}
+	.astro-a {
+		position: absolute;
+		top: 98px;
+		left: 50%;
+		transform: translatex(-50%);
+		width: 1200px;
+		height: auto;
+		z-index: -1;
+	}
+
+	h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 24px;
+		margin-top: 12px;
+	}
+	.text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+	.instructions {
+		margin-bottom: 2rem;
+		border: 1px solid rgba(var(--accent-light), 25%);
+		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
+		padding: 1.5rem;
+		border-radius: 8px;
+	}
+	.instructions code {
+		font-size: 0.8em;
+		font-weight: bold;
+		background: rgba(var(--accent-light), 12%);
+		color: rgb(var(--accent-light));
+		border-radius: 4px;
+		padding: 0.3em 0.4em;
+	}
+	.instructions strong {
+		color: rgb(var(--accent-light));
+	}
+	.link-card-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+		gap: 2rem;
+		padding: 0;
+	}
+
+	img	{
+		max-width: 100%;
+	}
+
+	span {
+		text-align: center;
+		display: block;
+	}
+
+
+	/* Overall form styling */
+form {
+    max-width: 100%; /* Sets a maximum width */
+    margin: 0 auto; /* Centers the form on the page */
+    padding: 20px; /* Adds some space inside the form */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Styling for input fields */
+input[type="text"],
+input[type="email"] {
+    width: 97%; /* Full width */
+    padding: 10px; /* Comfortable text padding */
+    margin-bottom: 15px; /* Space between fields */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Slightly rounded corners */
+	font-size: 18px;
+	font-family: system-ui, sans-serif;
+}
+
+
+
+/* Styling for the submit button */
+button {
+    width: 100%; /* Full width */
+    padding: 10px; /* Same padding as input fields */
+    background-color: #8e44eb; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    cursor: pointer; /* Cursor changes to pointer */
+    font-size: 16px; /* Larger text size */
+}
+
+/* Change button style on hover */
+button:hover {
+    background-color: #ba91f2; /* Slightly darker green on hover */
+}
+
+/* Styling for the textarea */
+textarea {
+	font-size: 18px;
+    width: 97%; /* Full width to match the input fields */
+    padding: 10px; /* Comfortable padding */
+    margin-bottom: 15px; /* Space below the textarea */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+    min-height: 100px; /* Minimum height */
+    resize: vertical; /* Allow vertical resizing only */
+	font-family: system-ui, sans-serif;
+}
+
+/* Change textarea style on focus */
+textarea:focus {
+    border-color: #4CAF50; /* Highlighted border color */
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5); /* Subtle glow effect */
+}
+</style>
